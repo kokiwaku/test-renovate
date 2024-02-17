@@ -12,8 +12,6 @@ module.exports = {
     onboarding: false,
     // 使用するプラットフォームを指定
     platform: 'github',
-    // フォークしたリポジトリも対象にするかどうか
-    includeForks: 'enabled',
     // 対象リポジトリを設定
     repositories: [
       'kokiwaku/test-renovate'
