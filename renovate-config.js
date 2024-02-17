@@ -14,6 +14,10 @@ module.exports = {
     platform: 'github',
     // フォークしたリポジトリも対象にするかどうか
     includeForks: true,
+    // 対象リポジトリを設定
+    repositories: [
+      'kokiwaku/test-renovate'
+    ],
     // パッケージ毎の更新ルールを指定
     packageRules: [
         {
