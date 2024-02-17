@@ -12,10 +12,10 @@ module.exports = {
     onboarding: false,
     // 使用するプラットフォームを指定
     platform: 'github',
-    // フォークしたリポジトリも対象にするかどうか
-    includeForks: true,
-    // dry-runのレベルを指定
-    dryRun: 'full',
+    // 対象リポジトリを設定
+    repositories: [
+      'kokiwaku/test-renovate'
+    ],
     // パッケージ毎の更新ルールを指定
     packageRules: [
         {
